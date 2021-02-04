@@ -11,7 +11,9 @@ dependencies:
     sdk: flutter
   rxdart: ^0.22.0
   fimber: ^0.1.10
-  flutter_ble_lib: ^2.2.0
+  flutter_ble_lib:
+    git:
+      url: https://github.com/dannyalbuquerque/FlutterBleLib
   flutter_bloc: ^2.0.0
   equatable: ^0.6.1
 
